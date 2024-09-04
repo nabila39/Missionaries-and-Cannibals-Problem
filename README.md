@@ -55,6 +55,8 @@ def bfs(initial_state):
                 queue.append(next_state)
 
     return "No Solution"
+
+
 ### 2. Depth-First Search (DFS)
 
 DFS explores as deep as possible along a branch before backtracking. It is not guaranteed to find the shortest solution but will find a solution if one exists.
