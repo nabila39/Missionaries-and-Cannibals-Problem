@@ -84,7 +84,7 @@ def dfs(state, visited=set()):
 
     visited.remove(state)
     return "No Solution"
-
+```
 ### Conclusion
 
 Both BFS and DFS can solve the Missionaries and Cannibals problem. BFS is preferred when the shortest solution path is needed, as it explores all possibilities level by level, ensuring the shortest path is found. On the other hand, DFS might be more efficient for exploring deeper solutions quickly, but it does not guarantee the shortest solution and may require more backtracking.
